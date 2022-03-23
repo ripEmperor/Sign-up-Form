@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=PT+Sans&family=Roboto:wght@300&display=swap');
+
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.bg {
+    position: relative;
+    display:flex;
+    align-items: center;
+}
+
+.bgIMG {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    width:100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 367px;
+}
+
+.logoBg {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    opacity: 0.3;
+    margin-bottom: 367px;
+}
+
+.form-page {
+    display: flex;
+}
+
+.formSide {
+    background-color: rgb(250, 250, 250);
+    width:100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    padding-top: 100px;
+}
+
+.form {
+    background-color: white;
+    height:275px;
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    align-self: flex-start;
+    margin-left: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    width: 990px;
+    font-family: Roboto;
+}
+
+.hypeText {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.actualForm {
+    margin-left: 100px;
+}
+
+.email, .phone, .first, .last, .pass, .passConf {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    gap: 25px;
+}
+
+.row1, .row2 {
+    margin-bottom: 20px;
+}
+
+.button {
+    position: relative;
+    bottom: -85px;
+}
+
+.createAcc {
+    cursor:pointer;
+    border-radius: 5px;
+    border: none;
+    width:175px;
+    height:50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.logIn {
+    margin-top: 60px;
+    margin-left: 100px;
+    font-family: "PT Sans";
+}
+
+input:focus{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    border: 2px solid rgb(158, 158, 255);
+    outline: none;
+}
+
+a {
+    color: rgb(116, 116, 116);
+    text-decoration: none; /* no underline */
+}
+
+a:hover {
+    color: rgb(126, 126, 126);
+    text-decoration:underline /* no underline */
+}
+
+label {
+    font-size: small;
+    font-family: 'PT Sans';
+    text-transform: uppercase;
+}
