@@ -29,6 +29,17 @@ body {
     margin-bottom: 367px;
 }
 
+.credit {
+    position: absolute;
+    width:100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    font-family: "PT Sans";
+    margin-bottom: 10px;
+}
+
 .logoBg {
     position: absolute;
     background-color: black;
